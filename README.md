@@ -14,7 +14,7 @@ Para ejecutar los codigos solo es necesario tener instalados los siguientes modu
 
 Dentro del repositorio se encuentran algunos algoritmos basicos que serán explicados a continuación:
 
-#### Red neuronal simple
+### Red neuronal simple
 Esta [Red neuronal](https://github.com/MateoVelasquez/SI_ITM_Python/blob/master/simple_neuronal_network/red_neuronal.py) está desarrollada mediante funciones y matrices sin necesidad de un Framework adicional. Para las funciones de fordward propagation y backpropagation **NO** se incluyen regularizadores, optimizadores u otros tipos de funciones avanzadas que mejoran el desempeño de la red. 
 La red se configura mediante la definicion de variables que se encuentran al inicio del código.  
 
@@ -28,6 +28,7 @@ Se muestra un  ejemplo de configuración de la red con 3 capas ocultas (2 neuron
 ```Python
 PATH = 'dataset.txt'  
 NEURONAS_CAPAS_OCULTAS = [2, 4, 2]
+
 # Configuracion de la red
 EPOCAS = 10000
 LEARNING_RATE = 0.001
